@@ -1,0 +1,43 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Robot',sans-serif;
+	background-color: white;
+}
+span{
+	background-size: 100px;
+	font-stretch: semi-expanded;
+	font-style: solid line-through;
+}
+button, input[type="text"]{
+	padding:5px;
+}
+button: hover{
+	cursor: pointer;
+}
+#shopping-list-item{
+	width: 250px;
+}
+.cointainer{
+	max-width: 600px;
+	margin : auto 0;
+	}
+	.shopping-list{
+	list-style: none;
+	padding-left: 0;
+	}
+	.shopping-list > li{
+	margin-bottom: 20px;
+	border: 1px solid grey;
+	padding: 20px;
+	}
+	shopping-item{
+	display-block: none;
+	color:grey;
+	font-size: 20px;
+	margin-bottom: 15px; 
+	}
+	.shopping-item_checked{
+	text-decoration: line-through;
+	}
